@@ -1,7 +1,7 @@
-##Projeto de Gestão de Faturas
+## Projeto de Gestão de Faturas
 Este projeto foi desenvolvido para proporcionar um ambiente que funcione em qualquer máquina utilizando Docker. A aplicação permite a gestão de faturas, incluindo upload, processamento e visualização de dados extraídos de PDFs de faturas.
 
-#Tecnologias Utilizadas
+# Tecnologias Utilizadas
 Docker
 PostgreSQL
 Prisma
@@ -12,9 +12,9 @@ pdf-parse
 TypeScript
 Jest
 
-##Preparação do Ambiente
+## Preparação do Ambiente
 
-#Passos Iniciais
+# Passos Iniciais
 Dê permissões aos arquivos wait-for-it.sh e run.sh:
 chmod +x wait-for-it.sh run.sh
 
@@ -28,7 +28,7 @@ Caso apresente qualquer erro, utilize o script run.sh:
 ./run.sh
 
 
-##Estrutura do Projeto
+## Estrutura do Projeto
 Diretório src
 controller/invoiceController.ts: Controlador responsável pelas operações relacionadas às faturas.
 services/invoiceService.ts: Serviço que lida com a lógica de negócios e interações com o banco de dados.
