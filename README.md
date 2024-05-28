@@ -65,4 +65,4 @@ DELETE /invoices/:id
 Deleta uma fatura específica pelo ID.
 
 # Testes
-npm test
+`npm test`
