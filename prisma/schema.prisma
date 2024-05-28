@@ -1,0 +1,23 @@
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider      = "prisma-client-js"
+  binaryTargets = ["native", "debian-openssl-1.1.x"]
+}
+
+model Invoice {
+  id               Int      @id @default(autoincrement())
+  clienteId        String
+  mesReferencia    String
+  energiaKWh       Float
+  energiaValor     Float
+  sceeKWh          Float
+  sceeValor        Float
+  compensadaKWh    Float
+  compensadaValor  Float
+  contribIlum      Float
+  pdfPath          String
+}
