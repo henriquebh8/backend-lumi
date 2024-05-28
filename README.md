@@ -1,31 +1,35 @@
-## Projeto de Gestão de Faturas
-Este projeto foi desenvolvido para proporcionar um ambiente que funcione em qualquer máquina utilizando Docker. A aplicação permite a gestão de faturas, incluindo upload, processamento e visualização de dados extraídos de PDFs de faturas.
+# Projeto de Gestão de Faturas
 
-# Tecnologias Utilizadas
-Docker
-PostgreSQL
-Prisma
-Express
-dotenv
-multer
-pdf-parse
-TypeScript
-Jest
+Este projeto foi desenvolvido para proporcionar um ambiente que funcione em qualquer máquina utilizando Docker.  
+A aplicação permite a gestão de faturas, incluindo upload, processamento e visualização de dados extraídos de PDFs de faturas.
+
+## Tecnologias Utilizadas
+
+- Docker
+- PostgreSQL
+- Prisma
+- Express
+- dotenv
+- multer
+- pdf-parse
+- TypeScript
+- Jest
 
 ## Preparação do Ambiente
 
-# Passos Iniciais
-Dê permissões aos arquivos wait-for-it.sh e run.sh:
-chmod +x wait-for-it.sh run.sh
+### Passos Iniciais
 
+1. Dê permissões aos arquivos `wait-for-it.sh` e `run.sh`:
+   
+`chmod +x wait-for-it.sh run.sh`
 
-Para iniciar a aplicação, rode o seguinte comando:
+2. Para iniciar a aplicação, rode o seguinte comando:
 
-docker-compose up --build
+`docker-compose up --build`
 
 Caso apresente qualquer erro, utilize o script run.sh:
 
-./run.sh
+`./run.sh`
 
 
 ## Estrutura do Projeto
